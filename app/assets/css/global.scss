@@ -1,0 +1,37 @@
+@use '~/assets/css/fluid-length' as f;
+
+:root {
+  --color-primary: 32 41 89;
+  --color-secondary: 231 235 253;
+  --color-white: 255 255 255;
+  --font-main: 'Libre Baskerville', serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.t-1 {
+  font-size: f.fluid-length(1.75, 4);
+  line-height: f.fluid-length(2.25, 5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
