@@ -3,7 +3,7 @@ import { CircleCheckBig } from 'lucide-vue-next';
 </script>
 
 <template>
-  <section id="over-mij" class="about">
+  <section id="over-mij section" class="about">
     <h2 class="t-2 t-center">Over mij</h2>
     <div class="columns">
       <p class="t-body">

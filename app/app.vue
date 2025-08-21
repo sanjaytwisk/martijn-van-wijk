@@ -4,6 +4,7 @@
       <h1 class="t-1">Iedere klus met zorg uitgevoerd</h1>
     </MainHeader>
     <AboutMe />
+    <Approach />
   </div>
 </template>
 <style lang="scss">

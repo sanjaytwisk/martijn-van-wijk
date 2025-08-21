@@ -3,6 +3,7 @@
 :root {
   --color-primary: 32 41 89;
   --color-secondary: 231 235 253;
+  --color-tertiary: 159 168 214;
   --color-white: 255 255 255;
   --font-main: 'Libre Baskerville', serif;
 }
@@ -39,6 +40,17 @@ body * {
 
 .t-center {
   text-align: center;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: f.fluid-length(1.5, 6);
+  padding: f.fluid-length(4, 8) f.fluid-length(1, 4);
 }
 
 h1,
