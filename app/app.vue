@@ -1,8 +1,9 @@
 <template>
   <div>
     <MainHeader>
-      <h1 class="t-1">Altijd met zorg uitgevoerd</h1>
+      <h1 class="t-1">Iedere klus met zorg uitgevoerd</h1>
     </MainHeader>
+    <AboutMe />
   </div>
 </template>
 <style lang="scss">

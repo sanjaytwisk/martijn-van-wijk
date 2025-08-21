@@ -9,7 +9,8 @@
   </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@use '~/assets/css/fluid-length.scss' as f;
 .header {
   width: 100vw;
   height: min(150vw, 100vh);
@@ -22,16 +23,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  background-image: linear-gradient(
-      15deg,
-      rgb(var(--color-primary) / 0.4) 0%,
-      transparent 50%
-    ),
+  background-image:
+    linear-gradient(15deg, rgb(var(--color-primary) / 0.4) 0%, transparent 50%),
     url('/header.jpg');
   background-size: 240%;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 2rem;
+  padding: f.fluid-length(1, 2);
   color: rgb(var(--color-white));
 
   @media (min-width: 600px) {
