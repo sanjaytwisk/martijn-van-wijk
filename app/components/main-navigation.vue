@@ -1,16 +1,16 @@
 <template>
   <nav class="nav">
     <div class="primary">
-      <NuxtLink to="/" aria-label="Home">
+      <a href="/" aria-label="Home">
         <img src="/logo.svg" alt="Logo" class="logo" height="44" width="44" />
-      </NuxtLink>
+      </a>
       <ul class="list">
         <li>
-          <NuxtLink to="tel:+31630103450">+31 6 30 10 34 50</NuxtLink>
+          <a href="tel:+31630103450">+31 6 30 10 34 50</a>
         </li>
         <li>
-          <NuxtLink to="mailto:info@klusbedrijfvanwijk.nl"
-            >info@klusbedrijfvanwijk.nl</NuxtLink
+          <a href="mailto:info@klusbedrijfvanwijk.nl"
+            >info@klusbedrijfvanwijk.nl</a
           >
         </li>
       </ul>
@@ -18,13 +18,13 @@
     <div class="secondary">
       <ul class="list">
         <li>
-          <NuxtLink to="/#over-mij">Over mij</NuxtLink>
+          <a href="#over-mij">Over mij</a>
         </li>
         <li>
-          <NuxtLink to="/#werkwijze">Werkwijze</NuxtLink>
+          <a href="#werkwijze">Werkwijze</a>
         </li>
         <li>
-          <NuxtLink to="/#projecten">Projecten</NuxtLink>
+          <a href="#projecten">Projecten</a>
         </li>
       </ul>
     </div>
@@ -80,8 +80,9 @@
     padding: 1rem;
     align-items: flex-start;
     gap: 0.5rem;
-    background: rgb(var(--color-primary) / 0.2);
+    background: rgb(var(--color-white) / 0.4);
     backdrop-filter: blur(0.5rem);
+    color: rgb(var(--color-primary));
   }
 }
 

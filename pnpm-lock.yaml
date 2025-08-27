@@ -11,6 +11,9 @@ dependencies:
   '@nuxtjs/google-fonts':
     specifier: 3.2.0
     version: 3.2.0
+  add:
+    specifier: ^2.0.6
+    version: 2.0.6
   eslint:
     specifier: ^9.33.0
     version: 9.33.0
@@ -26,6 +29,9 @@ dependencies:
   vue-router:
     specifier: ^4.5.1
     version: 4.5.1(vue@3.5.18)
+  vue3-carousel:
+    specifier: ^0.16.0
+    version: 0.16.0(vue@3.5.18)
 
 devDependencies:
   '@nuxt/eslint':
@@ -3206,6 +3212,10 @@ packages:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  /add@2.0.6:
+    resolution: {integrity: sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==}
+    dev: false
 
   /agent-base@7.1.4:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
@@ -8712,6 +8722,14 @@ packages:
       vue: ^3.2.0
     dependencies:
       '@vue/devtools-api': 6.6.4
+      vue: 3.5.18(typescript@5.9.2)
+    dev: false
+
+  /vue3-carousel@0.16.0(vue@3.5.18):
+    resolution: {integrity: sha512-IKRKtvHP8gNDRHSzINXwFbJ/Zy2HS+Gv2lXPnAEop6pxsvB17+fz2WQlNZ6ytilLkM5DOu/jXPoDQi/xy17bjg==}
+    peerDependencies:
+      vue: ^3.5.0
+    dependencies:
       vue: 3.5.18(typescript@5.9.2)
     dev: false
 
