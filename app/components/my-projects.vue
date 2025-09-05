@@ -66,6 +66,7 @@ const carouselConfig = {
   height: 2rem;
   border-radius: 50%;
   background-color: rgb(var(--color-white));
+  border: 1px solid rgb(var(--color-primary));
   color: var(--color-white);
   display: flex;
   justify-content: center;

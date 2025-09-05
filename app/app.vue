@@ -6,6 +6,7 @@
     <AboutMe />
     <MyApproach />
     <MyProjects />
+    <MyTestimonials />
   </div>
 </template>
 <style lang="scss">
