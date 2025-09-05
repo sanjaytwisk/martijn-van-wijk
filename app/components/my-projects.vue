@@ -3,43 +3,13 @@ import 'vue3-carousel/carousel.css';
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import { ArrowLeft } from 'lucide-vue-next';
 
-const slides = [
-  {
-    id: 1,
-    src: '/projecten/1.jpg',
-    alt: 'Project 1',
-  },
-  {
-    id: 2,
-    src: '/projecten/2.jpg',
-    alt: 'Project 2',
-  },
-  {
-    id: 3,
-    src: '/projecten/3.jpg',
-    alt: 'Project 3',
-  },
-  {
-    id: 4,
-    src: '/projecten/4.jpg',
-    alt: 'Project 4',
-  },
-  {
-    id: 5,
-    src: '/projecten/5.jpg',
-    alt: 'Project 5',
-  },
-  {
-    id: 6,
-    src: '/projecten/6.jpg',
-    alt: 'Project 6',
-  },
-  {
-    id: 7,
-    src: '/projecten/7.jpg',
-    alt: 'Project 7',
-  },
-];
+const slides = Array.from(new Array(7))
+  .map((_, index) => index + 1)
+  .map((id) => ({
+    id: id,
+    src: `/projecten/${id}.jpg`,
+    alt: `Project ${id}`,
+  }));
 
 const carouselConfig = {
   height: 400,
@@ -62,7 +32,7 @@ const carouselConfig = {
 </script>
 
 <template>
-  <section class="section projects">
+  <section class="section projects" id="projecten">
     <h2 class="t-2 t-center">Projecten</h2>
     <Carousel v-bind="carouselConfig">
       <Slide v-for="slide in slides" :key="slide.id">
