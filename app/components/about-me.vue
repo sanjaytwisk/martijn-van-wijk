@@ -7,10 +7,12 @@ import { CircleCheckBig } from 'lucide-vue-next';
     <h2 class="t-2 t-center">Over mij</h2>
     <div class="columns">
       <p class="t-body">
-        Martijn van Wijk is een onderhoud en klusbedrijf dat in 2021 is
-        opgericht. Van kleine kluswerkzaamheden tot grote onderhoud- en
-        renovatiewerkzaamheden. Martijn kan u met (bijna) alles helpen. Al vier
-        jaar worden vele klanten met tevredenheid geholpen.
+        Mijn naam is Martijn en sinds 2021 heb ik een onderhoud en
+        timmerbedrijf. Van kleine kluswerkzaamheden, timmerwerkzaamheden tot
+        grote onderhoud- en renovatiewerkzaamheden. Ik kan u met (bijna) alles
+        helpen. Al vier jaar heb ik vele klanten met tevredenheid geholpen. Ik
+        ben gestart met timmerklussen, maar inmiddels heb ik mijn repertoire de
+        afgelopen jaren enorm uitgebreid.
       </p>
       <ul class="activities t-body">
         <li>
@@ -31,11 +33,11 @@ import { CircleCheckBig } from 'lucide-vue-next';
         </li>
         <li>
           <CircleCheckBig />
-          <p>Timmerwerk</p>
+          <p>Herstel en Onderhoud</p>
         </li>
         <li>
           <CircleCheckBig />
-          <p>Onderhoud</p>
+          <p>Renovaties</p>
         </li>
       </ul>
     </div>
