@@ -98,6 +98,10 @@ const carouselConfig = {
   --vc-png-bottom: -1rem;
 }
 
+.carousel__viewport {
+  padding: 1rem 0;
+}
+
 @media (min-width: 600px) {
   .carousel__prev {
     left: 2rem;

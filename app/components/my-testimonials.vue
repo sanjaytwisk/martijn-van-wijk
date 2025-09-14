@@ -3,7 +3,6 @@ import 'vue3-carousel/carousel.css';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 import { ArrowLeft } from 'lucide-vue-next';
 const carouselConfig = {
-  height: 250,
   itemsToShow: 1.25,
   snapAlign: 'center',
   wrapAround: true,
@@ -18,15 +17,46 @@ const carouselConfig = {
       <Slide :key="testimonial1">
         <article class="testimonial">
           <blockquote class="t-3 quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Martijn is een topper. Makkelijk contact en luistert goed naar wat
+            je nodig hebt. Is flexibel. En voert zijn werk vakkundig uit.
+            Aanrader!
           </blockquote>
+          <cite class="t-body">- Eveline</cite>
         </article>
       </Slide>
       <Slide :key="testimonial2">
         <article class="testimonial">
           <blockquote class="t-3 quote">
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Martijn is niet alleen deskundig, maar ook fijn in de omgang. Hij is
+            betrouwbaar, denkt mee, werkt zorgvuldig, altijd met oog voor detail
+            en levert topkwaliteit.
           </blockquote>
+          <cite class="t-body">- Anna en Dirk</cite>
+        </article>
+      </Slide>
+      <Slide :key="testimonial2">
+        <article class="testimonial">
+          <blockquote class="t-3 quote">
+            Martijn heeft de afgelopen jaren meerdere werkzaamheden in en rondom
+            ons huis verricht (o.m. isoleren vloer, aanleggen tuin met schuur en
+            verfwerk). Alles altijd goed, netjes en op tijd uitgevoerd, waarbij
+            op voorhand duidelijkheid bestond over de kosten. Ten slotte is
+            Martijn een prettig en betrouwbaar persoon; aanrader dus!
+          </blockquote>
+          <cite class="t-body">- Nina en Sander</cite>
+        </article>
+      </Slide>
+      <Slide :key="testimonial2">
+        <article class="testimonial">
+          <blockquote class="t-3 quote">
+            We hebben Martijn in geschakeld om onze geoliede vloer te lakken en
+            een vloer te schilderen. Hij heeft dit echt heel zorgvuldig opgepakt
+            en heel veel met de hand geschuurd wat niet met de machine ging. We
+            zijn dankbaar voor zijn expertise en advies en bovenal het
+            resultaat. Het is fijn om met hem te communiceren en te plannen. We
+            zouden hem zo opnieuw inhuren!
+          </blockquote>
+          <cite class="t-body">- Jeroen en Frank</cite>
         </article>
       </Slide>
       <template #addons>
@@ -44,6 +74,7 @@ const carouselConfig = {
 </template>
 
 <style scoped lang="scss">
+@use '~/assets/css/fluid-length' as f;
 .testimonials {
   background-image: linear-gradient(
     to top,
@@ -61,6 +92,12 @@ const carouselConfig = {
   border: 1px solid rgb(var(--color-tertiary));
   background-color: rgb(var(--color-white));
   max-width: 40rem;
+
+  cite {
+    display: block;
+    color: rgb(var(--color-tertiary));
+    margin-top: f.fluid-length(0.25, 0.5);
+  }
 }
 
 .quote {

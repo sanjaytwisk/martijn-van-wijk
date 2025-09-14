@@ -57,7 +57,7 @@ import { CircleCheckBig } from 'lucide-vue-next';
 .columns {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: f.fluid-length(1.25, 2.5);
 
   @media (min-width: 900px) {
     flex-direction: row;
