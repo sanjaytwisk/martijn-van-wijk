@@ -11,10 +11,10 @@ const carouselConfig = {
 </script>
 
 <template>
-  <section class="section testimonials" id="testimonials">
+  <section id="testimonials" class="section testimonials">
     <h2 class="t-2 t-center">Testimonials</h2>
     <Carousel v-bind="carouselConfig">
-      <Slide :key="testimonial1">
+      <Slide :key="'testimonial1'">
         <article class="testimonial">
           <blockquote class="t-3 quote">
             Martijn is een topper. Makkelijk contact en luistert goed naar wat
@@ -24,7 +24,7 @@ const carouselConfig = {
           <cite class="t-body">- Eveline</cite>
         </article>
       </Slide>
-      <Slide :key="testimonial2">
+      <Slide :key="'testimonial2'">
         <article class="testimonial">
           <blockquote class="t-3 quote">
             Martijn is niet alleen deskundig, maar ook fijn in de omgang. Hij is
@@ -34,7 +34,7 @@ const carouselConfig = {
           <cite class="t-body">- Anna en Dirk</cite>
         </article>
       </Slide>
-      <Slide :key="testimonial2">
+      <Slide :key="'testimonial2'">
         <article class="testimonial">
           <blockquote class="t-3 quote">
             Martijn heeft de afgelopen jaren meerdere werkzaamheden in en rondom
@@ -46,7 +46,7 @@ const carouselConfig = {
           <cite class="t-body">- Nina en Sander</cite>
         </article>
       </Slide>
-      <Slide :key="testimonial2">
+      <Slide :key="'testimonial2'">
         <article class="testimonial">
           <blockquote class="t-3 quote">
             We hebben Martijn in geschakeld om onze geoliede vloer te lakken en
