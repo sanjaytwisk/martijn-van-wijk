@@ -32,11 +32,11 @@ const carouselConfig = {
 </script>
 
 <template>
-  <section class="section projects" id="projecten">
+  <section id="projecten" class="section projects">
     <h2 class="t-2 t-center">Projecten</h2>
     <Carousel v-bind="carouselConfig">
       <Slide v-for="slide in slides" :key="slide.id">
-        <img class="image" :src="slide.src" :alt="slide.alt" />
+        <img class="image" loading="lazy" :src="slide.src" :alt="slide.alt" />
       </Slide>
 
       <template #addons>
