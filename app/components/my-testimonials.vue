@@ -34,7 +34,7 @@ const carouselConfig = {
           <cite class="t-body">- Anna en Dirk</cite>
         </article>
       </Slide>
-      <Slide :key="'testimonial2'">
+      <Slide :key="'testimonial3'">
         <article class="testimonial">
           <blockquote class="t-3 quote">
             Martijn heeft de afgelopen jaren meerdere werkzaamheden in en rondom
@@ -46,7 +46,7 @@ const carouselConfig = {
           <cite class="t-body">- Nina en Sander</cite>
         </article>
       </Slide>
-      <Slide :key="'testimonial2'">
+      <Slide :key="'testimonial4'">
         <article class="testimonial">
           <blockquote class="t-3 quote">
             We hebben Martijn in geschakeld om onze geoliede vloer te lakken en
