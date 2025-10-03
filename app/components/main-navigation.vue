@@ -9,8 +9,8 @@
           <a href="tel:+31630103450">+31 6 30 10 34 50</a>
         </li>
         <li>
-          <a href="mailto:info@klusbedrijfvanwijk.nl"
-            >info@klusbedrijfvanwijk.nl</a
+          <a href="mailto:info@bouwbedrijfvanwijk.nl"
+            >info@bouwbedrijfvanwijk.nl</a
           >
         </li>
       </ul>

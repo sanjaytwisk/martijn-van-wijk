@@ -7,12 +7,12 @@ import { CircleCheckBig } from 'lucide-vue-next';
     <h2 class="t-2 t-center">Over mij</h2>
     <div class="columns">
       <p class="t-body">
-        Mijn naam is Martijn en sinds 2021 heb ik een onderhoud en
-        timmerbedrijf. Van kleine kluswerkzaamheden, timmerwerkzaamheden tot
-        grote onderhoud- en renovatiewerkzaamheden. Ik kan u met (bijna) alles
-        helpen. Al vier jaar heb ik vele klanten met tevredenheid geholpen. Ik
-        ben gestart met timmerklussen, maar inmiddels heb ik mijn repertoire de
-        afgelopen jaren enorm uitgebreid.
+        Mijn naam is Martijn en sinds 2021 heb ik een bouw- en timmerbedrijf.
+        Van kleine kluswerkzaamheden, timmerwerkzaamheden tot grote onderhoud-
+        en renovatiewerkzaamheden. Ik kan u met (bijna) alles helpen. Al vier
+        jaar heb ik vele klanten met tevredenheid geholpen. Ik ben gestart met
+        timmerklussen, maar inmiddels heb ik mijn repertoire de afgelopen jaren
+        enorm uitgebreid.
       </p>
       <ul class="activities t-body">
         <li>
