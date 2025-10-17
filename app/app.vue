@@ -7,6 +7,7 @@
     <MyApproach />
     <MyProjects />
     <MyTestimonials />
+    <FooterMain />
   </div>
 </template>
 <style lang="scss">
