@@ -14,7 +14,7 @@
     <ul class="links">
       <li>
         <a href="/documenten/algemene-voorwaarden.pdf" target="_blank"
-          >Algemene voorwaarde</a
+          >Algemene voorwaarden</a
         >
       </li>
       <li>
