@@ -47,6 +47,11 @@ body * {
   line-height: 1.75;
 }
 
+.t-body-small {
+  font-size: f.fluid-length(1, 1);
+  line-height: 1.75;
+}
+
 .t-center {
   text-align: center;
 }

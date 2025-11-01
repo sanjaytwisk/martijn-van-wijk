@@ -32,6 +32,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  gap: 1rem;
   background-image:
     linear-gradient(15deg, rgb(var(--color-primary) / 0.4) 0%, transparent 50%),
     url('/header.jpg');
